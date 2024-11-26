@@ -1,4 +1,5 @@
 on: [push]
+
 name: Linux_Container_Workflow
 
 jobs:
@@ -34,4 +35,4 @@ jobs:
             registry-username: ${{ secrets.REGISTRY_USERNAME }}
             registry-password: ${{ secrets.REGISTRY_PASSWORD }}
             name: aci-sampleapp
-            location: 'south uk'
+            location: 'uksouth'
